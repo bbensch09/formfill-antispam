@@ -1,0 +1,30 @@
+{
+  "name": "form-gate",
+  "version": "0.1.0",
+  "description": "Open-source anti-spam form protection with behavioral detection",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "eslint packages/*/src/**/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "anti-spam",
+    "form-protection",
+    "bot-detection",
+    "captcha-alternative",
+    "privacy-first"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbensch09/formfill-antispam.git"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@form-gate/server",
+  "version": "0.1.0",
+  "description": "Server-side validation for form submissions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0",
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "bot-detection",
+    "form-protection",
+    "middleware",
+    "express",
+    "anti-spam"
+  ],
+  "license": "MIT"
+}

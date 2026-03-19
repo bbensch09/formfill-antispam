@@ -1,0 +1,32 @@
+{
+  "name": "@form-gate/client",
+  "version": "0.1.0",
+  "description": "Browser-side form protection and bot detection",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "dev": "rollup -c -w"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.13.0"
+  },
+  "keywords": [
+    "bot-detection",
+    "form-protection",
+    "anti-spam",
+    "privacy"
+  ],
+  "license": "MIT"
+}
